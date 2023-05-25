@@ -1,22 +1,24 @@
-# PruebaTecnica
+##PruebaTecnica
+<h3>Acerca de la prueba</h3> 
+el proposito de este projecto es de consumir las apis para este caso se creo la empresa asi como el listado de los 3 ultimos registros de la empresa
+se tiene los siguientes link:
 
-### request agregar empleado:
-method: Post: http://localhost:8080/api/empleado
-{
-    "ruc":"20605100016",
-    "razonSocial":"RVM MAQUINARIAS S.A.C.",
-    "direccion":"Jr Sucre 350",
-    "estado": true
-},
-{
-    "ruc":"0547825781",
-    "razonSocial":"DMG DRILLING E.I.R.L.",
-    "direccion":"Jr Huallaga 280",
-    "estado": true
-},
+### request agregar empresa:
+* Method: Post:
+* http://localhost:8080/api/empleado
 
 
-### request obtener 3 ultimos registro de empleado:
-method: Get: http://localhost:8080/api/empresas/registro?limit=3
+### request obtener 3 ultimos registro de empresa:
+* Method get :
+* http://localhost:8080/api/empresas/registro?limit=3
+
+<h4>spring boot tecnologuias</h4>
+* H2
+* Spring Boot
+* Java
+* Spring Jpa
+* Spring Security
+
+
 
 
