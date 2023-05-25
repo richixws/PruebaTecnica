@@ -1,7 +1,7 @@
 # PruebaTecnica
 
-// request agregar empleado:
-//method: Post: http://localhost:8080/api/empleado
+### request agregar empleado:
+method: Post: http://localhost:8080/api/empleado
 {
     "ruc":"20605100016",
     "razonSocial":"RVM MAQUINARIAS S.A.C.",
@@ -16,7 +16,7 @@
 },
 
 
-// request obtener 3 ultimos registro de empleado:
-// method: Get: http://localhost:8080/api/empresas/registro?limit=3
+### request obtener 3 ultimos registro de empleado:
+method: Get: http://localhost:8080/api/empresas/registro?limit=3
 
 
