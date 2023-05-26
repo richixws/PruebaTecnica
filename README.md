@@ -1,6 +1,6 @@
 ##PruebaTecnica
 <h3>Acerca de la prueba</h3> 
-el proposito de este projecto es de consumir las apis para este caso se creo la empresa asi como el listado de los 3 ultimos registros de la empresa
+el proposito de este projecto es de consumir las apis para este caso se creo la entidad empresa para asi obtener el listado de los 3 ultimos registros de la empresa
 se tiene los siguientes link:
 
 ### request agregar empresa:
