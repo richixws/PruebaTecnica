@@ -22,9 +22,6 @@ user: admin
 contraseña: 12345
 
 
-* Method get :
-* http://localhost:8080/api/empresas/registro?limit=3
-
 <h4>spring boot tecnologuias</h4>
 * H2
 * Spring Boot
