@@ -12,6 +12,19 @@ se tiene los siguientes link:
 * Method get :
 * http://localhost:8080/api/empresas/registro?limit=3
 
+### se utilizo Basic Authentication la Anotación de nivel de método de Spring Security @PreAuthorize:
+#Role Empresa: 
+user: empresa
+contraseña: 12345
+
+#Role Admin:
+user: admin
+contraseña: 12345
+
+
+* Method get :
+* http://localhost:8080/api/empresas/registro?limit=3
+
 <h4>spring boot tecnologuias</h4>
 * H2
 * Spring Boot
@@ -19,6 +32,8 @@ se tiene los siguientes link:
 * Spring Jpa
 * Spring Security
 
+<h1>Herramientas</h1>
+Postman : para probar las apis.
 
 
 
