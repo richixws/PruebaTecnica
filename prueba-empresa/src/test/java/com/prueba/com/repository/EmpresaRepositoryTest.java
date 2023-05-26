@@ -11,7 +11,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import java.util.List;
 
 @DataJpaTest
-public class EmpleadoRepositoryTest {
+public class EmpresaRepositoryTest {
 
      @Autowired
      private EmpresaRepository empresaRepository;
@@ -59,9 +59,9 @@ public class EmpleadoRepositoryTest {
          .build();
 
        Empresa empresa2= Empresa.builder()
-         .ruc("20494074169")
-         .razonSocial("INVERSIONES AZUL")
-         .direccion("Jr Chiclayo 280")
+         .ruc("20494074456")
+         .razonSocial("INVERSIONES NEON")
+         .direccion("Jr CHOTA 280")
          .estado(true)
          .build();
 
