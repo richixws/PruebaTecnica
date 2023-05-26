@@ -1,7 +1,15 @@
 package com.prueba.com.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 
 @Entity
 @Table(name = "empresa")
@@ -21,6 +29,8 @@ public class Empresa implements Serializable {
     private String direccion;
 
     private boolean estado;
+
+
 
   public long getIdEmpresa() {
     return idEmpresa;

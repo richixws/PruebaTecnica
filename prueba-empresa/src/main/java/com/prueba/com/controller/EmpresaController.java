@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -21,7 +22,7 @@ public class EmpresaController {
 
     @PostMapping("/empresas")
     @PreAuthorize("hasRole('ADMIN')")
-    public ResponseEntity<Empresa> agregarEmpleado(@RequestBody Empresa empleado){
+    public ResponseEntity<Empresa> agregarEmpleado(@Valid @RequestBody Empresa empleado){
 
          return new ResponseEntity<>(empleadoService.createEmpresa(empleado), HttpStatus.CREATED);
     }
