@@ -29,8 +29,18 @@ contraseña: 12345
 * Spring Jpa
 * Spring Security
 
-<h1>Herramientas</h1>
+<h2>Herramientas pruebas</h2>
 Postman : para probar las apis.
+
+prueba agregar empresa:
+![agregar empresa](https://github.com/richixws/PruebaTecnica/assets/62392714/a1f19fe7-c5b9-4054-ba37-bdce7d8cfccb)
+
+prueba  obtener los 3 ultimos registros:
+![registro](https://github.com/richixws/PruebaTecnica/assets/62392714/ad5fe393-0fb3-4179-9135-d7f29260a225)
+
+
+
+
 
 
 
